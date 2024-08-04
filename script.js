@@ -1,7 +1,7 @@
 // String is for the text and target is the word we are searching for.
 let string = "Hello World :D",
   target = "";
-// Search searches through the text and find the word you put in target.
+// The search method searches the text and finds the word you entered in the target.
 target = string.search(`${target}`);
 //If The word exist it will print true if it doesnt it will print false.
 if (target >= 1){
